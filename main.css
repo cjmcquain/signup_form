@@ -1,0 +1,91 @@
+body {
+    background-color: #298eea;
+    color: black;
+     font-family: "Roboto", helvetica, sans-serif;
+}
+
+.brand-logo {
+    text-align: center;
+}
+
+.brand-logo img {
+    height: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.signup-form {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 400px;
+    background-color: white;
+    
+}
+
+
+
+    
+.signup-form label {
+    color: black;
+    
+    
+}
+
+div#signup_form.signup-form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.signup-form p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+button.signup-button {
+    background-color: green;
+    width: 360px;
+    height: 55px;
+    margin-left: 17px;
+    margin-top: 5px;
+    
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 320px;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 3px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+  button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #0CB863;
+
+}
+
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  
+}
+
+a {
+    margin-left: 130px;
+}
